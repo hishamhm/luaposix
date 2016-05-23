@@ -2,10 +2,10 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define this if your system has a crypt() function */
-#define HAVE_CRYPT 1
+/* #undef HAVE_CRYPT */
 
 /* Define to 1 if you have the <crypt.h> header file. */
-#define HAVE_CRYPT_H 1
+/* #undef HAVE_CRYPT_H */
 
 /* Define to 1 if you have the declaration of `fdatasync', and to 0 if you
    don't. */
@@ -30,7 +30,7 @@
 #define HAVE_LIBRT 1
 
 /* Define to 1 if you have the <linux/netlink.h> header file. */
-#define HAVE_LINUX_NETLINK_H 1
+/* #undef HAVE_LINUX_NETLINK_H */
 
 /* Define to 1 if you have the <luaconf.h> header file. */
 #define HAVE_LUACONF_H 1
@@ -81,7 +81,7 @@
 #define HAVE_STRING_H 1
 
 /* Define to 1 if you have the `strlcpy' function. */
-/* #undef HAVE_STRLCPY */
+#define HAVE_STRLCPY 1
 
 /* Define if your system has SysV message APIs */
 #define HAVE_SYSV_MESSAGING 1
